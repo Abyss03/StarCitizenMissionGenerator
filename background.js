@@ -5,11 +5,5 @@ chrome.app.runtime.onLaunched.addListener(function() {
       'height': 720
     }
 
-    Main()
   });
 });
-
-function Main()
-{
-  
-}
