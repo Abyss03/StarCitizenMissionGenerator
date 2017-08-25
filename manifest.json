@@ -1,0 +1,11 @@
+{
+  "name": "Star Citizen Mission Generator",
+  "description": "Generate your own Star Citizen Mission for SC 3.0",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
