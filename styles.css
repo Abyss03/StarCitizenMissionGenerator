@@ -17,12 +17,25 @@
   color: red;
 }
 
-.header {
+#header {
   width: 100%;
   height: 8em;
   position: absolute;
   left: 0;
   background-color: #ef6c00;
+}
+
+#mainBody {
+  width: 100%;
+  top: 8.66em;
+  left: 0;
+  position: absolute;
+}
+
+#bodyContent {
+  margin-left: 15px;
+  padding-top: 15px;
+  color: black;
 }
 
 .left-side {

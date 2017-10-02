@@ -37,6 +37,7 @@ function readFiles()
                 var allText = rawFile.responseText;
                 planets = JSON.parse(rawFile.responseText);
                 console.log(planets);
+                console.log(planets.planets[0].name)
             }
         }
     }
@@ -58,7 +59,7 @@ function readFiles()
         }
     }
     rawFile2.send(null);
-    
+
     var rawFile3 = new XMLHttpRequest();
     rawFile3.open("GET", "/data/suggestions.json", true);
     rawFile3.onreadystatechange = function ()

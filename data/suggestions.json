@@ -1,59 +1,55 @@
 {
-  "suggestions":
-  [
+  "suggestions": [
     {
-      "name":"Rescue Mission",
-      "submitter":"Corwin111",
-      "context":"A VIP is stranded in hostile territory. A rescue team is on a mission to extract the VIP and bring him safely home, while an opposing force has orders to capture and kill him.",
-      "loadout":"VIP is armed solely with a pistol; Rescue party should have at least one multicrew ship; Attackers are equipped with fighter ships and heavy weapons",
-      "deployment":"VIP is diposited at a remote location known to both teams; Both Teams starting positions are decided and agreed on before initiaing the senario",
-      "victory_conditions":"",
-      "surface_required":false,
-      "surface_viable":true,
-      "combat":
-      {
-        "ship_combat":true,
-        "eva_combat":true,
-        "ground_combat":true
+      "name": "Rescue Mission",
+      "submitter": "Corwin111",
+      "context": "A VIP is stranded in hostile territory. A rescue team is on a mission to extract the VIP and bring him safely home, while an opposing force has orders to capture and kill him.",
+      "loadout": "VIP is armed solely with a pistol; Rescue party should have at least one multicrew ship; Attackers are equipped with fighter ships and heavy weapons",
+      "deployment": "VIP is diposited at a remote location known to both teams; Both Teams starting positions are decided and agreed on before initiaing the senario",
+      "victory_conditions": "",
+      "surface_required": false,
+      "surface_viable": true,
+      "combat": {
+        "ship_combat": true,
+        "eva_combat": true,
+        "ground_combat": true
       },
-      "min_participants":4,
-      "max_participants":8
+      "min_participants": 4,
+      "max_participants": 8
     },
     {
-      "name":"Yela Run",
-      "submitter":"Gyre-Taenn",
-      "context":"One/Two players are desegnated as the 'Targets', they are tasked with escaping, the rest of the players, the 'Seekers' have the job of destroying the target(s).",
-      "loadout":"Targets are deployed with their choice of escape craft, this may be armed but they are not allowed to return fire; Seekers get to choose from any combat ship they have access to and any loadout they choose",
-      "deployment":"Targets deploy behind the seekers, the senario is innitiated as the targets pass the seekers",
-      "victory_conditions":"Targets make it one full orbit of Yela then they can be considered safe and have esaped the seekers; Seekers kill the targets before they complete their orbit of Yela",
-      "surface_required":false,
-      "surface_viable":false,
-      "combat":
-      {
-        "ship_combat":true,
-        "eva_combat":false,
-        "ground_combat":false
+      "name": "Yela Run",
+      "submitter": "Gyre-Taenn",
+      "context": "One/Two players are desegnated as the 'Targets', they are tasked with escaping, the rest of the players, the 'Seekers' have the job of destroying the target(s).",
+      "loadout": "Targets are deployed with their choice of escape craft, this may be armed but they are not allowed to return fire; Seekers get to choose from any combat ship they have access to and any loadout they choose",
+      "deployment": "Targets deploy behind the seekers, the senario is innitiated as the targets pass the seekers",
+      "victory_conditions": "Targets make it one full orbit of Yela then they can be considered safe and have esaped the seekers; Seekers kill the targets before they complete their orbit of Yela",
+      "surface_required": false,
+      "surface_viable": false,
+      "combat": {
+        "ship_combat": true,
+        "eva_combat": false,
+        "ground_combat": false
       },
-      "min_participants":6,
-      "max_participants":8
+      "min_participants": 6,
+      "max_participants": 8
     },
     {
-      "name":"Operation Rogue Nation",
-      "submitter":"abyss03",
-      "context":"One team becomes mercenaries and have to find a way to lose their wanted level. The other team has to stop them by any means possible",
-      "loadout":"Any and all loadouts are allowed for both teams",
-      "deployment":"Both teams will agree the start positions before start, a suitable time limit or number of lives will also be agreed for the mercenaries to have to be able to get rid of their wanteded level",
-      "victory_conditions":"The mercenaries are successful on removing their wanted level; Time period or all lives have been used up, the mercenaries were unsuccessful",
-      "surface_required":false,
-      "surface_viable":false,
-      "combat":
-      {
-        "ship_combat":true,
-        "eva_combat":true,
-        "ground_combat":true
+      "name": "Operation Rogue Nation",
+      "submitter": "abyss03",
+      "context": "One team becomes mercenaries and have to find a way to lose their wanted level. The other team has to stop them by any means possible",
+      "loadout": "Any and all loadouts are allowed for both teams",
+      "deployment": "Both teams will agree the start positions before start, a suitable time limit or number of lives will also be agreed for the mercenaries to have to be able to get rid of their wanteded level",
+      "victory_conditions": "The mercenaries are successful on removing their wanted level; Time period or all lives have been used up, the mercenaries were unsuccessful",
+      "surface_required": false,
+      "surface_viable": false,
+      "combat": {
+        "ship_combat": true,
+        "eva_combat": true,
+        "ground_combat": true
       },
-      "min_participants":6,
-      "max_participants":16
+      "min_participants": 6,
+      "max_participants": 16
     }
   ]
 }
