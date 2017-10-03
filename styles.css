@@ -19,7 +19,7 @@
 
 #header {
   width: 100%;
-  height: 8em;
+  height: 15%;
   position: absolute;
   left: 0;
   background-color: #ef6c00;
@@ -27,7 +27,8 @@
 
 #mainBody {
   width: 100%;
-  top: 8.66em;
+  top: 17%;
+  height: 83%;
   left: 0;
   position: absolute;
 }
@@ -55,4 +56,13 @@
   padding-top: 15px;
   margin-right: 15px;
   right: 0px;
+}
+
+#table * {
+  padding-left: 15px;
+  color: black;
+}
+
+ul {
+  list-style-type:none;
 }

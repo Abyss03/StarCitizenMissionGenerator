@@ -2,61 +2,61 @@
   "planets":
   [
     {
-      "name":"crusader",
+      "name":"Crusader",
       "surface_roaming":true,
       "landing_zones":
       [
         {
-          "name":"orison",
+          "name":"Orison",
           "no_fire_zone":true
         }
       ],
       "moons":
       [
         {
-          "name":"daymar",
+          "name":"Daymar",
           "surface_roaming":true
         },
         {
-          "name":"cellin",
+          "name":"Cellin",
           "surface_roaming":true
         },
         {
-          "name":"yela",
+          "name":"Yela",
           "surface_roaming":true
         }
       ],
       "stations":
       [
         {
-          "name":"icc_probe",
+          "name":"ICC Probe",
           "landing_pads":false,
           "no_fire_zone":false
         },
         {
-          "name":"covalex_shipping_hub",
+          "name":"Covalex Shipping Hub",
           "landing_pads":true,
           "no_fire_zone":false
         },
         {
-          "name":"cry_astro_repairs",
+          "name":"Cry Astro Repairs",
           "landing_pads":true,
           "no_fire_zone":false
         },
         {
-          "name":"security_post_kareah",
+          "name":"Security Post Kareah",
           "landing_pads":true,
           "no_fire_zone":false
         }
       ]
     },
     {
-      "Name":"delamar",
+      "name":"Delamar",
       "surface_roaming":true,
       "landing_zones":
       [
         {
-          "name":"levski",
+          "name":"Levski",
           "no_fire_zone":true
         }
       ],
