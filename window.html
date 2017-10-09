@@ -15,24 +15,32 @@
         </div>
       </div>
       <div id="mainBody">
-        <div id="bodyContent">
+        <div id="tableDiv" class="materialContainer">
+          <table id="table">
+            <thead>
+              <tr>
+                <th>Planetary Body</th><th>Natural Satellites</th><th>Artificial Satellites</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="planets">body</td><td class="moons">body2</td><td class="stations">body2</td>
+              </tr>
+              <tr>
+                <td class="planets">body</td><td class="moons">body2</td><td class="stations">body2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="bodyContent" class="materialContainer">
           *Body Content will go here*
         </div>
-        <table id="table">
-          <thead>
-            <tr>
-              <th>Name</th><th>Moons</th><th>Stations</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="planets">body</td><td class="moons">body2</td><td class="stations">body2</td>
-            </tr>
-            <tr>
-              <td class="planets">body</td><td class="moons">body2</td><td class="stations">body2</td>
-            </tr>
-          </tbody>
-        </table>
+
+        <div id="moreBodyContent" class="materialContainer">
+          *MoreBodyContent*
+        </div>
+
       </div>
   </body>
 </html>

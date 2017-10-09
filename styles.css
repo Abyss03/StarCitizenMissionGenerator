@@ -27,16 +27,14 @@
 
 #mainBody {
   width: 100%;
-  top: 17%;
-  height: 83%;
+  top: 16%;
+  height: 84%;
   left: 0;
   position: absolute;
+  background-color: #d1d1d1;
 }
 
 #bodyContent {
-  margin-left: 15px;
-  padding-top: 15px;
-  color: black;
 }
 
 .left-side {
@@ -59,8 +57,26 @@
 }
 
 #table * {
-  padding-left: 15px;
   color: black;
+}
+
+.materialContainer {
+  padding: 5px;
+  padding-left: 6px;
+  margin: 15px;
+  display: inline-block;
+  background-color: white;
+  width: 30%;
+  height: 20em;
+  float: left;
+  color: black;
+}
+
+#tableDiv {
+}
+
+th {
+  font-size: 20px;
 }
 
 ul {

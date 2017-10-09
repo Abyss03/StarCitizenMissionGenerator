@@ -32,8 +32,6 @@ function readFiles()
 
                 var allText = rawFile.responseText;
                 planets = JSON.parse(rawFile.responseText);
-                //console.log(planets);
-                //console.log(planets.planets[0].name)
 
                 var planetsClasses = document.getElementsByClassName("planets");
                 var moonClasses = document.getElementsByClassName("moons");
@@ -116,9 +114,7 @@ function PopulateStations(stations, stationClass)
     stationsList = "<ul>"
     for (var i = 0; i < stations.length; i++)
     {
-      if (stations[i]) {
         stationsList += "<li>" + stations[i].name + "</li>";
-      }
     }
     stationsList += "</ul>"
   }
